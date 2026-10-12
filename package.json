@@ -1,0 +1,23 @@
+{
+  "name": "jormun",
+  "version": "1.0.0",
+  "description": "The Last Harness - minimal agent that bootstraps itself",
+  "type": "module",
+  "main": "jormun.mjs",
+  "bin": {
+    "jormun": "./jormun.mjs"
+  },
+  "scripts": {
+    "start": "node jormun.mjs"
+  },
+  "keywords": [
+    "agent",
+    "llm",
+    "bootstrap",
+    "eval"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
